@@ -64,11 +64,11 @@ const Favorites = ({ token }) => {
     <div className="favorites">
       <p>Favorite characters :</p>
       {dataChar.map((data, index) => {
-        return <h5 key={index}>- {data.name}</h5>;
+        return <h6 key={index}>- {data.name}</h6>;
       })}
       <p>Favorite comics :</p>
       {dataCom.map((data, index) => {
-        return <h5 key={index}>- {data.title}</h5>;
+        return <h6 key={index}>- {data.title}</h6>;
       })}
     </div>
   );

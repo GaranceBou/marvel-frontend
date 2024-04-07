@@ -10,3 +10,8 @@
   padding-left: 10px;
   min-height: 600px;
 }
+
+h6 {
+  font-size: 25px;
+  color: rgb(179, 52, 52);
+}

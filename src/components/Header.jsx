@@ -38,7 +38,7 @@ const Header = ({ token, handleToken }) => {
               Logout
             </button>
           ) : (
-            <div>
+            <div className="loginbuttons">
               <Link to="/login">
                 <button className="login-button">LOGIN</button>
               </Link>

@@ -9,6 +9,7 @@ h5 {
   color: rgb(195, 12, 12);
   font-size: 22px;
   font-family: "Courier New", Courier, monospace;
+  text-align: center;
 }
 
 h5 span {
