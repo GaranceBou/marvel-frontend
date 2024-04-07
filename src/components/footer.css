@@ -1,0 +1,16 @@
+footer {
+  height: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+h5 {
+  color: rgb(195, 12, 12);
+  font-size: 22px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+h5 span {
+  font-weight: bold;
+}

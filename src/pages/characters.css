@@ -1,0 +1,119 @@
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h4 {
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  color: #cb1117;
+  text-shadow: 0px 0px 5px rgb(215, 84, 84);
+}
+
+.characters {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* flex-direction: column; */
+  gap: 15px;
+}
+
+.heart {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  color: rgb(255, 249, 250);
+}
+
+.heart:active,
+.heart:active:before,
+.heart:active:after {
+  color: rgb(198, 55, 101);
+}
+
+.character {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(195, 12, 12);
+  padding: 10px;
+  width: 200px;
+  height: 250px;
+  gap: 7px;
+  position: relative;
+  box-shadow: 0px 0px 15px rgb(206, 40, 40);
+}
+
+.heart:active,
+.heart:active:before,
+.heart:active:after {
+  color: rgb(185, 93, 93);
+}
+
+.character p {
+  color: white;
+  font-family: "Comic Neue", cursive;
+  font-size: 13px;
+}
+
+.avatar {
+  width: 120px;
+  height: max-content;
+  border-radius: 4px;
+}
+
+.pagination {
+  display: flex;
+  font-size: 30px;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  color: rgb(218, 24, 24);
+}
+
+.pagination:hover {
+  cursor: pointer;
+}
+
+/* input */
+.search-input::placeholder {
+  font-size: 15px;
+  color: #1a1a1a;
+  padding-left: 3px;
+}
+
+.search-input:focus {
+  outline: none;
+}
+
+.search-input {
+  width: 50%;
+  margin: 30px 0;
+  background-color: rgb(244, 244, 244);
+  border: none;
+  padding: 10px;
+  font-family: "Comic Neue", cursive;
+}
+
+.actualPage {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.pinkheart {
+  color: pink;
+}

@@ -1,0 +1,12 @@
+.favorites p {
+  font-size: 30px;
+  color: rgb(239, 0, 0);
+  padding: 22px 0;
+}
+
+.favorites {
+  max-width: 1150px;
+  margin: 25px auto;
+  padding-left: 10px;
+  min-height: 600px;
+}

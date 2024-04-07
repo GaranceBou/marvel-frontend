@@ -1,0 +1,34 @@
+.home-section {
+  margin: auto;
+  max-width: 100%;
+  background-color: #ed1d24;
+  padding: 50px;
+  height: 100%;
+}
+
+.home {
+  margin: 0 auto;
+  padding: 60px 0;
+  max-width: 90%;
+  height: 650px;
+  display: flex;
+  justify-content: center;
+}
+
+.starlord {
+  max-width: 330px;
+  box-shadow: 0px 0px 20px rgb(255, 255, 255);
+  border-radius: 2px;
+}
+
+.spiderman {
+  max-width: 330px;
+  box-shadow: 0px 0px 20px rgb(255, 255, 255);
+  border-radius: 2px;
+}
+
+.ironman {
+  max-width: 330px;
+  box-shadow: 0px 0px 20px rgb(255, 255, 255);
+  border-radius: 2px;
+}

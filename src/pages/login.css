@@ -1,0 +1,62 @@
+.login-background {
+  background-color: white;
+  min-height: 100%;
+}
+
+.formshapelogin {
+  width: 480px;
+  margin: 80px auto;
+  background-color: #ffffff;
+  padding: 50px;
+  border-radius: 12px;
+}
+
+.formlogin {
+  width: 100%;
+  height: 100%;
+}
+
+.loginbutton {
+  background-color: #ed1d24;
+  color: white;
+  border: none;
+  padding: 8px 22px;
+  border-radius: 3px;
+  font-size: 17px;
+  margin: 20px 0;
+}
+
+.loginbutton:hover {
+  cursor: pointer;
+}
+
+.formshape input {
+  border: none;
+  margin: 10px 0;
+}
+
+.formshape input::placeholder {
+  color: #bdb9b9;
+  font-size: 16px;
+}
+
+.formshape input:focus {
+  outline: none;
+}
+
+.lpassword-input {
+  position: relative;
+}
+
+.eye {
+  position: absolute;
+  right: 6px;
+  top: 10px;
+}
+
+@media (max-width: 768px) {
+  .formshapelogin {
+    width: 300px;
+    margin: 60px auto;
+  }
+}
