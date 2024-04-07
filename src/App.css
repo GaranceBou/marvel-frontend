@@ -44,7 +44,7 @@ body {
 
   .ironman {
     width: 350px;
-    height: fit-content;
+    height: auto;
   }
 
   .logo {
