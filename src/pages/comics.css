@@ -1,5 +1,7 @@
 h4 {
   font-size: 20px;
+  color: white;
+  text-align: center;
 }
 
 .comic p {
@@ -14,7 +16,6 @@ h4 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  /* flex-direction: column; */
   gap: 15px;
 }
 
