@@ -17,12 +17,12 @@ body {
 @media (max-width: 1024px) {
   .starlord {
     width: 250px;
-    height: fit-content;
+    height: 379px;
   }
 
   .spiderman {
     width: 250px;
-    height: fit-content;
+    height: 379px;
   }
 
   .ironman {
