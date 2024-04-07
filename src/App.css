@@ -71,4 +71,16 @@ body {
     justify-content: center;
     gap: 5px;
   }
+
+  .characterId-main {
+    flex-direction: column;
+  }
+
+  .character-avatar {
+    width: 300px;
+  }
+
+  .characterId-main p {
+    text-align: center;
+  }
 }
